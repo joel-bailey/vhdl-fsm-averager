@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2998104190fs"></ZoomStartTime>
+      <ZoomEndTime time="2998175702fs"></ZoomEndTime>
+      <Cursor1Time time="2998221905fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="208"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/TB/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/OVERFLOW" type="logic">
+      <obj_property name="ElementShortName">OVERFLOW</obj_property>
+      <obj_property name="ObjectShortName">OVERFLOW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/CTRL" type="array">
+      <obj_property name="ElementShortName">CTRL[5:0]</obj_property>
+      <obj_property name="ObjectShortName">CTRL[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/AVG_CLR" type="logic">
+      <obj_property name="ElementShortName">AVG_CLR</obj_property>
+      <obj_property name="ObjectShortName">AVG_CLR</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/AVG_LD" type="logic">
+      <obj_property name="ElementShortName">AVG_LD</obj_property>
+      <obj_property name="ObjectShortName">AVG_LD</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/SUM_CLR" type="logic">
+      <obj_property name="ElementShortName">SUM_CLR</obj_property>
+      <obj_property name="ObjectShortName">SUM_CLR</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/SUM_LD" type="logic">
+      <obj_property name="ElementShortName">SUM_LD</obj_property>
+      <obj_property name="ObjectShortName">SUM_LD</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/I_CLR" type="logic">
+      <obj_property name="ElementShortName">I_CLR</obj_property>
+      <obj_property name="ObjectShortName">I_CLR</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/I_LD" type="logic">
+      <obj_property name="ElementShortName">I_LD</obj_property>
+      <obj_property name="ObjectShortName">I_LD</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/ACC_CLR" type="logic">
+      <obj_property name="ElementShortName">ACC_CLR</obj_property>
+      <obj_property name="ObjectShortName">ACC_CLR</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/ACC_LD" type="logic">
+      <obj_property name="ElementShortName">ACC_LD</obj_property>
+      <obj_property name="ObjectShortName">ACC_LD</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/RAM_DATA" type="array">
+      <obj_property name="ElementShortName">RAM_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM_DATA[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/ACC_DATA" type="array">
+      <obj_property name="ElementShortName">ACC_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_DATA[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/SUM_DATA" type="array">
+      <obj_property name="ElementShortName">SUM_DATA[13:0]</obj_property>
+      <obj_property name="ObjectShortName">SUM_DATA[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/dut/AVG" type="array">
+      <obj_property name="ElementShortName">AVG[13:0]</obj_property>
+      <obj_property name="ObjectShortName">AVG[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

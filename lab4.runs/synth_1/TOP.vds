@@ -1,0 +1,256 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Fri Oct 16 10:43:55 2020
+# Process ID: 12840
+# Current directory: C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.runs/synth_1/TOP.vds
+# Journal file: C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace
+Command: synth_design -top TOP -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7300
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1027.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'CONTROLLER' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd:32]
+WARNING: [Synth 8-614] signal 'CurrentState' is read in the process but is not in the sensitivity list [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd:41]
+WARNING: [Synth 8-614] signal 'CTRL' is read in the process but is not in the sensitivity list [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'CONTROLLER' (1#1) [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'COUNTER' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/COUNTER.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'COUNTER' (2#1) [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/COUNTER.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/RAM.vhd:25]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.runs/synth_1/.Xil/Vivado-12840-DESKTOP-0757BRC/realtime/blk_mem_gen_0_stub.vhdl:5' bound to instance 'BRAM' of component 'blk_mem_gen_0' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/RAM.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.runs/synth_1/.Xil/Vivado-12840-DESKTOP-0757BRC/realtime/blk_mem_gen_0_stub.vhdl:16]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (3#1) [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/RAM.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'ACC' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/ACC.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ACC' (4#1) [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/ACC.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'SUM' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/SUM.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'SUM' (5#1) [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/SUM.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'AVERAGE' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/AVERAGE.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'AVERAGE' (6#1) [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/AVERAGE.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (7#1) [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1027.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1027.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1027.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1027.336 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'ram/BRAM'
+Finished Parsing XDC File [c:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'ram/BRAM'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1066.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1066.637 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1066.637 ; gain = 39.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1066.637 ; gain = 39.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for ram/BRAM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1066.637 ; gain = 39.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'CurrentState_reg' in module 'CONTROLLER'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NextState_reg' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd:45]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NextState_reg' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd:45]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              clearstate |                              001 |                               00
+                accstate |                              010 |                               01
+                  iSTATE |                              100 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CurrentState_reg' using encoding 'one-hot' in module 'CONTROLLER'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NextState_reg' [C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1066.637 ; gain = 39.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 6     
+	   3 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1066.637 ; gain = 39.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1066.637 ; gain = 39.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1066.637 ; gain = 39.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1078.492 ; gain = 51.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1084.277 ; gain = 56.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1084.277 ; gain = 56.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1084.277 ; gain = 56.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.277 ; gain = 56.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.277 ; gain = 56.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.277 ; gain = 56.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |blk_mem_gen_0_bbox |     1|
+|2     |BUFG               |     1|
+|3     |CARRY4             |     4|
+|4     |LUT1               |     3|
+|5     |LUT2               |    17|
+|6     |LUT3               |     3|
+|7     |LUT4               |     3|
+|8     |LUT5               |     4|
+|9     |LUT6               |     2|
+|10    |FDCE               |     1|
+|11    |FDPE               |     1|
+|12    |FDRE               |    40|
+|13    |FDSE               |     2|
+|14    |LD                 |     2|
+|15    |IBUF               |     2|
+|16    |OBUF               |    13|
++------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.277 ; gain = 56.941
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1084.277 ; gain = 17.641
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1084.277 ; gain = 56.941
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1095.316 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1101.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LD => LDCE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1101.793 ; gain = 74.457
+INFO: [Common 17-1381] The checkpoint 'C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.runs/synth_1/TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 16 10:44:26 2020...

@@ -1,0 +1,13 @@
+0.7
+2020.1.1
+Aug  5 2020
+23:19:43
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sim_1/new/TB.vhd,1602873484,vhdl,,,,tb,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl,1602878766,vhdl,,,,blk_mem_gen_0;blk_mem_gen_0_blk_mem_gen_generic_cstr;blk_mem_gen_0_blk_mem_gen_prim_width;blk_mem_gen_0_blk_mem_gen_prim_wrapper_init;blk_mem_gen_0_blk_mem_gen_top;blk_mem_gen_0_blk_mem_gen_v8_4_4;blk_mem_gen_0_blk_mem_gen_v8_4_4_synth,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/ACC.vhd,1602869751,vhdl,C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd,,,acc,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/AVERAGE.vhd,1602878579,vhdl,C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd,,,average,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/CONTROLLER.vhd,1602879419,vhdl,C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd,,,controller,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/COUNTER.vhd,1602867941,vhdl,C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd,,,counter,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/RAM.vhd,1602869825,vhdl,C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd,,,ram,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/SUM.vhd,1602873368,vhdl,C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd,,,sum,,,,,,,,
+C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sources_1/new/TOP.vhd,1602873424,vhdl,C:/Users/joelb/dev-vhdl/524/hw0/lab4/lab4.srcs/sim_1/new/TB.vhd,,,top,,,,,,,,
